@@ -1,0 +1,66 @@
+<TodoItems xmlns="http://tempuri.org/TodoItems.xsd">
+  <TodoItems>
+    <ItemID>0</ItemID>
+    <Title>1</Title>
+    <Description>
+      1st Stock in the demo
+    </Description>
+    <Priority>0</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>1</ItemID>
+    <Title>2</Title>
+    <Description>
+      2nd Stock in the demo
+    </Description>
+    <Priority>1</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>2</ItemID>
+    <Title>3</Title>
+    <Description>
+      3rd Stock in the demo
+    </Description>
+    <Priority>2</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>3</ItemID>
+    <Title>4</Title>
+    <Description>
+      4th Stock in the demo
+    </Description>
+    <Priority>3</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>4</ItemID>
+    <Title>5</Title>
+    <Description>
+      5th Stock in the demo
+    </Description>
+    <Priority>4</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>5</ItemID>
+    <Title>6</Title>
+    <Description>
+      6th Stock in the demo
+    </Description>
+    <Priority>6</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>6</ItemID>
+    <Title>7</Title>
+    <Description>
+      7th Stock in the demo
+    </Description>
+    <Priority>7</Priority>
+  </TodoItems>
+  <TodoItems>
+    <ItemID>7</ItemID>
+    <Title>8</Title>
+    <Description>
+      8th Stock in the demo
+    </Description>
+    <Priority>5</Priority>
+  </TodoItems>
+</TodoItems>

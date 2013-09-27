@@ -1,0 +1,241 @@
+﻿/*
+* LIGHTSTREAMER - www.lightstreamer.com
+* 3D World Demo
+* Copyright 2013 Weswit Srl
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+body, div, p, h1, h2, h3, h4, ul, li, table {
+	margin:0;
+	padding:0;
+	border:none;
+}
+	 
+
+body {
+	
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:75%;
+}
+
+
+
+/***********************************/
+
+/*General content pages styling*/
+.demoarea {
+	padding:20px;
+	background:#FFF url(images/demotop.png) no-repeat left top;
+	height:100%
+}
+
+.demoheading {
+	padding-bottom:20px;
+	color:#5377A9;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight:bold;
+	font-size: 9pt; 
+}
+.demoTitle {
+    font-weight:bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 11pt; 
+    color: #000000; 
+    background: #ffffff; 
+    font-weight: bold; 
+    text-align: left;
+}
+.explanation {
+    background: #ffffff; 
+}
+
+
+
+em {font-style:italic}
+
+i {font-style: italic;}
+
+strong {font-weight:bold;}
+
+/******************************/
+
+
+/*CollapsiblePanel*/
+.collapsePanel {
+	
+	background-color:white;
+	overflow:hidden;
+}
+
+.collapsePanelHeader{	
+	width:100%;		
+	height:30px;
+	background-image: url(images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFF;
+	font-weight:bold;
+}
+
+#rightcolumn .collapsePanelHeader a {color:#FFF;}
+#rightcolumn .collapsePanelHeader a:hover {text-decoration:none;background:none;}
+
+
+
+/*Drag Panel*/
+.dragMe {
+	width:100%;
+	height:21px;
+	background-color:#FFF;
+	background-image:url(images/header-opened.png);
+	text-align:center;
+	cursor:move;
+	font-weight:bold;
+}
+
+.overflowHidden {overflow:hidden;}
+
+.overflowScroll {overflow:hidden;}
+
+/*Reorder List*/
+.dragHandle {
+	position:relative;
+	width:10px;
+	height:15px;
+	background-color:Blue;
+	cursor:move;
+	border:outset thin white;
+}
+.fakeDragHandle {
+	position:relative;
+	width:10px;
+	height:15px;
+	background-color:Red;
+	border:outset thin white;
+}
+.reorderListDemo li {
+	list-style:none;
+	margin:2px;
+	background-image:url(images/bg_nav.gif);
+	background-repeat:repeat-x;
+	color:#FFF;
+}
+
+.reorderListDemo li a {color:#FFF !important; font-weight:bold;}
+
+.reorderCue {
+	border:dashed thin black;
+	width:100%;
+	height:25px;
+}
+
+.itemArea {
+	margin-left:15px;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:1em;
+	text-align:left;
+	width:100%;
+}
+.stockTD {
+	margin-left:15px;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:1em;
+	text-align:left;
+	width:30%;
+}
+.priceTD {
+	margin-left:15px;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:1em;
+	text-align:right;
+	width:20%;
+}
+.timeTD {
+	margin-left:15px;
+	font-family:Arial, Verdana, sans-serif;
+	font-size:1em;
+	text-align:right;
+	width:30%;
+}
+.clickable:hover {
+    background-color: Yellow;
+    color: Black;
+    cursor: pointer;
+}
+/*Chart*/
+
+.chartHeader {
+    border: 1px solid blue;
+    width: 270px;
+    font-weight: bold;
+}
+.chartButton {
+    border: 1px solid blue;
+    width: 18px;
+    text-align: center;
+}
+.chartButtonLink:hover {
+    background-color: Yellow;
+}
+
+.chartContainer {
+    border: 2px solid blue;
+    width: 300px;
+    height: 250px;
+    background: white;
+    cursor: move;
+}
+
+.lsgbox {
+	background: #ffffbb url(images/cbg.jpg); 
+	width: 200px;
+	height: 200px;
+}
+
+.lspx { 
+	width:1px; 
+	height:1px; 
+	background-color:black; 
+}
+
+.lslbly {
+    background-color:transparent;
+}
+
+.lslblx {
+    background-color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
