@@ -27,17 +27,17 @@ The demo includes the following client-side technologies:
 # Deploy #
 
 The example is comprised of the following source code and image files:
-- <b>Default.aspx</b>(<b>.ca</b>): the Web form of the demo.
+- <b>Default.aspx</b>(<b>.cs</b>): the Web form of the demo.
 - <b>StyleSheet.css</b>: css file for the styles used in the demo.
 - <b>web.config</b>: web configuration file.
-- <b>/js/*</b>: this folder contains all the JavaScript script needed by the demo.
-- <b>/images/*</b>: this folder contains image files.
-- <b>/App_Code/*</b>: this folder contains source code for the xml data source.
-- <b>/App_Data/*</b>: this folder contains the xml file.
+- <b>js/*</b>: this folder contains all the JavaScript resources needed by the demo.
+- <b>images/*</b>: this folder contains image files.
+- <b>App_Code/*</b>: this folder contains source code for the xml data source.
+- <b>App_Data/*</b>: this folder contains the xml file.
 
 To recompile the provided source, you just need to create a project for a Web Application target, then include the source and include references to the [Microsoft Ajax Toolkit](http://ajaxcontroltoolkit.codeplex.com/releases/) binaries files.
 Furthermore, before you can run the demo, some dependencies need to be solved:
-- Get the lightstreamer.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the "/js" folder of the demo. Alternatively, you can build a lightstreamer.js file from the online generator. In that case, be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
+- Get the lightstreamer.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the "/js" folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
 - Get the require.js file form the [requirejs.org](http://requirejs.org/docs/download.html) and put it in the "/js" folder of the demo.
 
 # See Also #
