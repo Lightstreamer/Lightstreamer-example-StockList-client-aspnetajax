@@ -1,6 +1,6 @@
 # Lightstreamer StockList Demo Client for ASP.NET AJAX#
 
-This project include an integration demo of Lightstreamer and Ajax Control Toolkit for [Microsoft ASP.NET](http://ajax.asp.net/).
+This project includes an integration demo of Lightstreamer and Ajax Control Toolkit for [Microsoft ASP.NET](http://ajax.asp.net/).
 
 ## Lightstreamer ASP.NET AJAX Demo ##
 
@@ -17,7 +17,7 @@ This project include an integration demo of Lightstreamer and Ajax Control Toolk
   </tr>
 </table>
 
-This application uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses an [Ajax Toolkit ReorderList control](http://www.asp.net/ajaxlibrary/act_ReorderList.ashx) to display the data for eight stock quotes received from Lightstreamer Server.
+This application uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses an [Ajax Toolkit ReorderList control](http://www.asp.net/ajaxlibrary/act_ReorderList.ashx) to display the data for eight stock quotes received from the server.
 The [Ajax Toolkit DragPanel ](http://www.asp.net/ajaxlibrary/act_DragPanel.ashx) and [CollapsiblePanel](http://www.asp.net/ajaxlibrary/act_CollapsiblePanel.ashx) controls are also used in the demo.<br>
 You can drag the blue handles to reorder the list. Click on the stock names to open pop-up boxes showing the streaming charts.<br>
 
