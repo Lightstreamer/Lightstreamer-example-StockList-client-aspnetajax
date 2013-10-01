@@ -7,7 +7,7 @@ This project includes an integration demo of Lightstreamer and Ajax Control Tool
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/AtlasDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_atlas.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/AtlasDemo" target="_blank"><img src="screen_atlas.png"></a>&nbsp;
       
     </td>
     <td>
