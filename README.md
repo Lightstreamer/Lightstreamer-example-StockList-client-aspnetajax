@@ -1,5 +1,7 @@
 # Lightstreamer - Stock-List Demo - ASP.NET Ajax Clien #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-aspnetajax -->
+
 This project includes an integration demo of Lightstreamer and Ajax Control Toolkit for [Microsoft ASP.NET](http://ajax.asp.net/).
 
 <table>
@@ -22,6 +24,7 @@ You can drag the blue handles to reorder the list. Click on the stock names to o
 The demo includes the following client-side technologies:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) for each of the eight stock quotes added to the update panel, subscribed to in <b>MERGE</b> mode feeding both a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html) and, if opened, a [Chart](http://www.lightstreamer.com/docs/client_javascript_uni_api/Chart.html) for the pop-up window. 
 
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-aspnetajax -->
 # Deploy #
 
 The example is comprised of the following source code and image files:
@@ -42,9 +45,11 @@ Furthermore, before you can run the demo, some dependencies need to be solved:
 
 ## Lightstreamer Adapters needed by these demo clients ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
+<!-- END RELATED_ENTRIES -->
 ## Similar demo clients that may interest you ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
