@@ -1,4 +1,4 @@
-# Lightstreamer - Stock-List Demo - ASP.NET Ajax Clien #
+# Lightstreamer - Stock-List Demo - HTML (ASP.NET Ajax) Clien #
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-aspnetajax -->
 
