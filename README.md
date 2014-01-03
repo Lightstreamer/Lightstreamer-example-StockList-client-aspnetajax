@@ -21,7 +21,7 @@ This application uses the <b>JavaScript Client API for Lightstreamer</b> to hand
 The [Ajax Toolkit DragPanel ](http://www.asp.net/ajaxlibrary/act_DragPanel.ashx) and [CollapsiblePanel](http://www.asp.net/ajaxlibrary/act_CollapsiblePanel.ashx) controls are also used in the demo.<br>
 You can drag the blue handles to reorder the list. Click on the stock names to open pop-up boxes showing the streaming charts.<br>
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) for each of the eight stock quotes added to the update panel, subscribed to in <b>MERGE</b> mode feeding both a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html) and, if opened, a [Chart](http://www.lightstreamer.com/docs/client_javascript_uni_api/Chart.html) for the pop-up window. 
 
 <!-- END DESCRIPTION lightstreamer-example-stocklist-client-aspnetajax -->
