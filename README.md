@@ -4,7 +4,7 @@
 
 This project includes an integration demo of Lightstreamer and Ajax Control Toolkit for [Microsoft ASP.NET](http://ajax.asp.net/).
 
-[![screenshot](screen_ajax_large.png)](http://demos.lightstreamer.com/AtlasDemo/)
+[![screenshot](screen_atlas_large.png)](http://demos.lightstreamer.com/AtlasDemo/)
 An online demonstration is hosted on our servers at [http://demos.lightstreamer.com/AtlasDemo/](http://demos.lightstreamer.com/AtlasDemo/)
 
 This application uses the <b>JavaScript Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server and uses an [Ajax Toolkit ReorderList control](http://www.asp.net/ajaxlibrary/act_ReorderList.ashx) to display the data for eight stock quotes received from the server.
