@@ -33,11 +33,11 @@ The example is comprised of the following source code and image files:
 
 ## Build
 
-To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-aspnet#live-demo) section above, consider that to recompile the provided source, you just need to create a project for a <b>Web Application target</b>, then include the source and include references to the [Microsoft Ajax Toolkit](http://ajaxcontroltoolkit.codeplex.com/releases/) binaries files.
+To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-aspnetajax#live-demo) section above, consider that to recompile the provided source, you just need to create a project for a <b>Web Application target</b>, then include the source and include references to the [Microsoft Ajax Toolkit](http://ajaxcontroltoolkit.codeplex.com/releases/) binaries files.
 We have tested the demo with [Microsoft Visual Studio Express 2013 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=40747).
 
 Furthermore, before you can run the demo, some dependencies need to be solved:
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
+* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_2_Colosseo_20140722/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
 * Get the `require.js` file form the [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/js` folder of the demo.
 
 In order to test your demo with Visual Studio and the pre-installed IIS Express web server please follow this step:
