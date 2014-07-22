@@ -35,10 +35,14 @@ limitations under the License.
         var grids = [];
         var subs = [];
 
-        var onLoad, newChart, newSimpleC;
+        var newChart, newSimpleC;
+               
 
-        require(["js/lsClient", "Subscription", "StaticGrid", "Chart", "SimpleChartListener"], function (lsClient, Subscription, StaticGrid, Chart, SimpleChartListener) {
-            onLoad = function () {
+        //////////////////Tables conf
+        //called by atlas at page onload event
+        function pageLoad() {
+            require(["js/lsClient", "Subscription", "StaticGrid", "Chart", "SimpleChartListener"], function (lsClient, Subscription, StaticGrid, Chart, SimpleChartListener) {
+
                 var ik;
                 for (ik = 1; ik < 9; ik++) {
                     grids[ik] = new StaticGrid(ik, true);
@@ -64,28 +68,22 @@ limitations under the License.
 
                     lsClient.subscribe(subs[ik]);
                 }
+                
+                newChart = function (itemId) {
+                    return new Chart("graph" + itemId, true);
+                }
+
+                newSimpleC = function () {
+                    return new SimpleChartListener();
+                }
+
+                addChartToSub = function (itemId) {
+
+                }
 
                 openAChart(2);
                 openAChart(7);
-            }
-
-            newChart = function (itemId) {
-                return new Chart("graph" + itemId, true);
-            }
-
-            newSimpleC = function () {
-                return new SimpleChartListener();
-            }
-
-            addChartToSub = function (itemId) {
-
-            }
-        });
-
-        //////////////////Tables conf
-        //called by atlas at page onload event
-        function pageLoad() {
-            onLoad();
+            });
         }
 
         var itemChartLines = {};
