@@ -33,7 +33,7 @@ The example is comprised of the following source code and image files:
 
 ## Build
 
-To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-aspnet#live-demo) section above, consider that to recompile the provided source, you just need to create a project for a <b>Web Application target<b>, then include the source and include references to the [Microsoft Ajax Toolkit](http://ajaxcontroltoolkit.codeplex.com/releases/) binaries files.
+To build your own version of the demo, instead of using the one provided in the [Live Demo](https://github.com/Weswit/Lightstreamer-example-StockList-client-aspnet#live-demo) section above, consider that to recompile the provided source, you just need to create a project for a <b>Web Application target</b>, then include the source and include references to the [Microsoft Ajax Toolkit](http://ajaxcontroltoolkit.codeplex.com/releases/) binaries files.
 We have tested the demo with [Microsoft Visual Studio Express 2013 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=40747).
 
 Furthermore, before you can run the demo, some dependencies need to be solved:
