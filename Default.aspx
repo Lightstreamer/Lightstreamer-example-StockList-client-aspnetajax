@@ -6,7 +6,7 @@
 <!--
 LIGHTSTREAMER - www.lightstreamer.com
 3D World Demo
-Copyright 2013 Weswit s.r.l.
+Copyright (c) Lightstreamer Srl
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -259,7 +259,7 @@ limitations under the License.
 </head>
 
 <body>
-<a href="https://github.com/Weswit/Lightstreamer-example-StockList-client-aspnetajax"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-aspnetajax"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <table class="demoTitle" style="width:100%">
 <tr>
 <td><a href="http://www.lightstreamer.com"><img style="border-width:0; left: 25px; width: 228px;" src="images/logo.png" /></a></td>
