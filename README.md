@@ -37,7 +37,7 @@ To build your own version of the demo, instead of using the one provided in the 
 We have tested the demo with [Microsoft Visual Studio Express 2013 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=40747).
 
 Furthermore, before you can run the demo, some dependencies need to be solved:
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, and StatusWidget modules and to use the "Use AMD" version.
+* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, ConnectionSharing, and StatusWidget modules and to use the "Use AMD" version.
 * Get the `require.js` file form the [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/js` folder of the demo.
 
 In order to test your demo with Visual Studio and the pre-installed IIS Express web server please follow this step:
