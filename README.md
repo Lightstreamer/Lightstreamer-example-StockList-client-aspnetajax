@@ -7,7 +7,7 @@ This project includes an integration demo of Lightstreamer and <b>Ajax Control T
 ## Live Demo
 
 [![screenshot](screen_atlas_large.png)](http://demos.lightstreamer.com/AtlasDemo/)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/AtlasDemo/)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/AtlasDemo/)<br>
 
 ## Details
 
