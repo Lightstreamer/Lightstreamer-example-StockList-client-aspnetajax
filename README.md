@@ -16,7 +16,7 @@ The [Ajax Toolkit DragPanel ](http://www.asp.net/ajaxlibrary/act_DragPanel.ashx)
 You can drag the blue handles to reorder the list. Click on the stock names to open pop-up boxes showing the streaming charts.<br>
 
 The demo includes the following client-side functionalities:
-* A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) for each of the eight stock quotes added to the update panel, subscribed to in <b>MERGE</b> mode feeding both a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html) and, if opened, a [Chart](http://www.lightstreamer.com/docs/client_javascript_uni_api/Chart.html) for the pop-up window. 
+* A [Subscription](https://lightstreamer.com/api/ls-web-client/latest/Subscription.html) for each of the eight stock quotes added to the update panel, subscribed to in <b>MERGE</b> mode feeding both a [StaticGrid](https://lightstreamer.com/api/ls-web-client/latest/StaticGrid.html) and, if opened, a [Chart](https://lightstreamer.com/api/ls-web-client/latest/Chart.html) for the pop-up window. 
 
 ### Dig the code
 
@@ -37,7 +37,10 @@ To build your own version of the demo, instead of using the one provided in the 
 We have tested the demo with [Microsoft Visual Studio Express 2013 for Web](http://www.microsoft.com/en-us/download/details.aspx?id=40747).
 
 Furthermore, before you can run the demo, some dependencies need to be solved:
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) and put it in the `/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html). In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, ConnectionSharing, and StatusWidget modules and to use the "Use AMD" version.
+* Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and put it in the `/js` folder of the demo.
+  Alternatively, you can generate a customized lightstreamer.js library containing only the classes you actually use;
+  see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
+  In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, ConnectionSharing, and StatusWidget modules and to use the "Use AMD" version.
 * Get the `require.js` file form the [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/js` folder of the demo.
 
 In order to test your demo with Visual Studio and the pre-installed IIS Express web server please follow this step:
