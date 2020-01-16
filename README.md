@@ -40,7 +40,7 @@ Furthermore, before you can run the demo, some dependencies need to be solved:
 * Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and put it in the `/js` folder of the demo.
   Alternatively, you can generate a customized lightstreamer.js library containing only the classes you actually use;
   see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
-  In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, ConnectionSharing, and StatusWidget modules and to use the "Use AMD" version.
+  In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, Chart, SimpleChartListener, ConnectionSharing, and StatusWidget modules.
 * Get the `require.js` file form the [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `/js` folder of the demo.
 
 In order to test your demo with Visual Studio and the pre-installed IIS Express web server please follow this step:
