@@ -27,7 +27,7 @@ limitations under the License.
     <title>Lightstreamer ASP.NET AJAX Demo</title>
     <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/require.js"></script>
-    <script type="text/javascript" src="js/lightstreamer.js"></script>
+    <script type="text/javascript" src="js/lightstreamer.min.js"></script>
     <script type="text/javascript">
 
         var names = [];
