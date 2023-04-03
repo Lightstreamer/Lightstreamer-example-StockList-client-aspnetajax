@@ -64,7 +64,7 @@ limitations under the License.
                     subs[ik].addListener(grids[ik]);
                     subs[ik].setDataAdapter("QUOTE_ADAPTER");
                     subs[ik].setRequestedSnapshot("yes");
-                    subs[ik].setRequestedMaxFrequency(1);
+                    subs[ik].setRequestedMaxFrequency("1");
 
                     lsClient.subscribe(subs[ik]);
                 }
